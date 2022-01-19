@@ -1,0 +1,29 @@
+{
+  "name": "nodeservertest",
+  "version": "1.0.0",
+  "description": "Test Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "heroku-postbuild": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewHightech/nodeservertest.git"
+  },
+  "author": "Matt Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewHightech/nodeservertest/issues"
+  },
+  "homepage": "https://github.com/MatthewHightech/nodeservertest#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "https-localhost": "^4.6.4",
+    "node-fetch": "^2.6.1"
+  }
+}
